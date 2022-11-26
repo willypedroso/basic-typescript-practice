@@ -1,0 +1,36 @@
+* {
+    margin: 0px;
+    padding: 0px;    
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(49, 49, 221);
+    font-family: sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border: 3px solid black;
+    border-radius: 15px;
+    background-color: antiquewhite;
+    padding: 25px;
+    box-shadow: 4px 4px 15px black;
+}
+
+#emailField, #passwordField {
+    border: 2px black solid;
+    padding: 10px;
+}
+
+#btnLogin {
+    padding: 10px;
+    font-weight: bolder;
+}
